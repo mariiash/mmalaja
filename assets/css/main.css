@@ -300,6 +300,8 @@ input, select, textarea {
 	}
 
 	#bg {
+		background-size: contain;
+    		background-position: center;
 		background-size: 2250px auto;
 		width: 6750px;
 	}
@@ -803,10 +805,7 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
-		} }
+		}
 
 /* Normal */
 
@@ -885,10 +884,7 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
-			background-size: 750px auto;
-			width: 2250px;
-		} }
+		}
 
 /* Mobile */
 
@@ -969,11 +965,6 @@ input, select, textarea {
 				-ms-transform: translate3d(-300px,0,0);
 				transform: translate3d(-300px,0,0);
 			}
-		}
-
-		#bg {
-			background-size: 300px auto;
-			width: 900px;
 		}
 
 	/* Header */
@@ -1067,11 +1058,6 @@ input, select, textarea {
 				-ms-transform: translate3d(-412.5px,0,0);
 				transform: translate3d(-412.5px,0,0);
 			}
-		}
-
-		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
 		}
 
 	/* Header */
